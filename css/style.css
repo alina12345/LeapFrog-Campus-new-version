@@ -173,6 +173,7 @@ h2 {display:inline;}
     font-size:12px; margin:6px 0;overflow:auto; 
 }
 
+<<<<<<< HEAD
 .part1 .info{
     float:left;
     margin-top: 30px;
@@ -289,3 +290,119 @@ h3
     border-right:0px solid #FFFF00;
 
 }
+=======
+
+.part2
+{
+    width: 1004px;
+    height:500px;
+}
+h3
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #008500;
+    font-weight: bold;
+}
+
+.part2 .leftpart
+{
+    width:250px;
+    height:500px;
+    float:left;
+    font-family: Arial;
+    text-align: justify;
+    margin-right: 90px;
+}
+#readmore
+{
+    margin-left: 110px;
+    background:#008500; color:#FFFFFF; font-size:14px; border:1px solid #0060a1;
+}
+
+.part2 .rightpart
+{
+    width: 250px;
+    height:500px;
+    float:left;
+    text-align: justify;
+    margin-right: 0px;
+    font-family: Arial;
+    margin-right: 90px;
+}
+.part2 .left
+{
+    height: 600px;
+    margin-top: 28px;
+    float:left;
+
+
+}
+.part2 .left .right_round
+{
+
+
+
+
+}
+
+.part2 .left .leftdown{
+    float:left;
+    margin-top: 0px;
+    
+}
+.part2 .left .leftdown a{
+
+    display:block;
+
+
+    text-align:inherit;
+    text-decoration:none;
+    font-size:13px;
+    font-weight: bold;
+
+    border-right:0px solid #FFFF00;
+}
+.part2 .left .leftdown a:hover
+{
+
+    color:#008500;
+    text-decoration:none;
+    background-color: #FFFF00;
+    width:100px;
+}
+.footer
+{
+    background-image: url('../images/bek.png');
+    margin-top: 0px;
+    width: 1004px;
+
+}
+.footer ul
+{
+    color:#008500;  
+}
+
+.footer ul li
+{
+    list-style-type:none;
+    display:inline;
+    color:#008500;
+
+}
+.footer ul li a
+{
+
+    width:105px;
+    display:block;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    float:left;
+    text-align:inherit;
+    text-decoration:none;
+    font-size:14px;
+    font-weight: bold;
+    padding:12px 10px 20px 0px;
+    border-right:0px solid #FFFF00;
+
+}
+
+>>>>>>> branch 'master' of https://github.com/alina12345/LeapFrog-Campus-new-version.git
