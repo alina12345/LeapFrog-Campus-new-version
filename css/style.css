@@ -173,32 +173,7 @@ h2 {display:inline;}
     font-size:12px; margin:6px 0;overflow:auto; 
 }
 
-.part1 .info{
-    float:left;
-    margin-top: 30px;
-    margin-left: 100px;
 
-}
-.part1 .info a{
-
-    display:block;
-
-
-    text-align:inherit;
-    text-decoration:none;
-    font-size:13px;
-    font-weight: bold;
-
-    border-right:0px solid #FFFF00;
-}
-.part1 .info a:hover
-{
-
-    color:#008500;
-    text-decoration:none;
-    background-color: #FFFF00;
-
-}
 .part2
 {
     width: 1004px;
@@ -251,14 +226,36 @@ h3
 
 
 }
-.part2 .left .leftdown
+
+.part2 .left .leftdown{
+    float:left;
+    margin-top: 0px;
+    
+}
+.part2 .left .leftdown a{
+
+    display:block;
+
+
+    text-align:inherit;
+    text-decoration:none;
+    font-size:13px;
+    font-weight: bold;
+
+    border-right:0px solid #FFFF00;
+}
+.part2 .left .leftdown a:hover
 {
 
+    color:#008500;
+    text-decoration:none;
+    background-color: #FFFF00;
+    width:100px;
 }
 .footer
 {
     background-image: url('../images/bek.png');
-    margin-top: 10px;
+    margin-top: 0px;
     width: 1004px;
 
 }
@@ -289,3 +286,4 @@ h3
     border-right:0px solid #FFFF00;
 
 }
+
