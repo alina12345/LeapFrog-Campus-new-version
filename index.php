@@ -45,12 +45,12 @@
                     <div id="ribbon"></div>
                     <div id="slider">
                         <a href="http://www.menucool.com/jquery-slider" target="_blank">
-                            <img src="images/image-slider-1.jpg" alt="" />
+                            <img src="images/image-slider-1.jpg" alt="" height="306px" width="700px"/>
                         </a>
-                        <img src="images/image-slider-2.jpg" alt="" />
-                        <img src="images/image-slider-3.jpg" alt="" />
-                        <img src="images/image-slider-4.jpg" alt="" />
-                        <img src="images/image-slider-5.jpg" />
+                        <img src="images/image-slider-2.jpg" alt="" height="306px" width="700px"/>
+                        <img src="images/image-slider-3.jpg" alt="" height="306px" width="700px"/>
+                        <img src="images/image-slider-4.jpg" alt="" height="306px" width="700px"/>
+                        <img src="images/image-slider-5.jpg" height="306px" width="700px"/>
                     </div>
 
                 </div>

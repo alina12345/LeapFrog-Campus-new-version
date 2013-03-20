@@ -1,18 +1,98 @@
-.body
+.header
 {
     background-image: url('../images/bek.png');
     background-repeat: repeat-y;
     width:1004px;
     height: 100px;
     background-color: #1D766F;
-    margin-bottom: 0px;
+    margin: 0px;
 
 }
-input
+
+#header_left
+{
+    float:left;
+    width:200px;
+    position:relative;
+
+}
+#header_center
+{
+    text-align:center;
+    font-size:20px;
+    float:left;
+    width:500px;
+    height: 0px;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);	
+}
+
+#hcenter_down{
+    text-align: center;
+    font-size:14px;
+    height: 50px;
+    position:relative;
+    top:-24px;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);	
+
+}
+
+#header_right
+{
+    float: right;
+    padding-right: 8px;
+    position: relative;
+    top: 53px;
+
+}
+#header_right #search
 {
     border-radius: 15px;
     height: 30px;
 }
+#header_right img{
+    position:relative;
+    top:9px;
+}
+div.clear {
+    clear:both;
+}
+#collegname{
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0,0,0,.1),
+        0 0 5px rgba(0,0,0,.1),
+        0 1px 3px rgba(0,0,0,.3),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.25),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.15);
+}
+
 .menu
 {
     margin-top: -22px;
@@ -39,7 +119,7 @@ input
 .menu ul li a
 {
 
-    width:105px;
+    width:170px;
     display:block;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     float:left;
@@ -64,14 +144,14 @@ input
 .part1
 {
     width: 1004px;
-    
+
     height:400px;
 }
 
 .part1 .slider
 {
     float:left;
-    
+
 }
 .slider body {background:#F6F6F6;font:normal 0.9em Arial; margin:0; padding:0; padding-bottom:60px;}
 h2 {display:inline;}
@@ -93,16 +173,16 @@ h2 {display:inline;}
     font-size:12px; margin:6px 0;overflow:auto; 
 }
 
- .part1 .info{
+.part1 .info{
     float:left;
     margin-top: 30px;
     margin-left: 100px;
-    
+
 }
 .part1 .info a{
 
     display:block;
-    
+
 
     text-align:inherit;
     text-decoration:none;
@@ -113,58 +193,74 @@ h2 {display:inline;}
 }
 .part1 .info a:hover
 {
-    
+
     color:#008500;
     text-decoration:none;
     background-color: #FFFF00;
-    
+
 }
 .part2
 {
     width: 1004px;
     height:500px;
-    background-color: #FB0;
 }
+h3
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #008500;
+    font-weight: bold;
+}
+
 .part2 .leftpart
 {
     width:250px;
     height:500px;
-    background-color: #FB0;
     float:left;
+    font-family: Arial;
+    text-align: justify;
+    margin-right: 90px;
+}
+#readmore
+{
+    margin-left: 110px;
+    background:#008500; color:#FFFFFF; font-size:14px; border:1px solid #0060a1;
 }
 
 .part2 .rightpart
 {
     width: 250px;
     height:500px;
-    background-color: #07C;
     float:left;
+    text-align: justify;
+    margin-right: 0px;
+    font-family: Arial;
+    margin-right: 90px;
 }
 .part2 .left
 {
-    width: 504px;
-    height:500px;
+    height: 600px;
+    margin-top: 28px;
     float:left;
-    margin-top: -19px;
+
+
 }
-.part2 .left .lefttop
+.part2 .left .right_round
 {
-    width: 504px;
-    height: 250px;
-    background-color: #008500;
+
+
+
+
 }
 .part2 .left .leftdown
 {
-    width: 504px;
-    height: 250px;
-    background-color: #cc0000;
+
 }
 .footer
 {
     background-image: url('../images/bek.png');
     margin-top: 10px;
     width: 1004px;
-    
+
 }
 .footer ul
 {
