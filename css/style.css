@@ -22,6 +22,7 @@
 	font-size:20px;
 	float:left;
 	width:500px;
+        height: 0px;
 	text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -33,27 +34,51 @@
                0 3px 5px rgba(0,0,0,.2),
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);	}
-	
-	}
-	
+               0 20px 20px rgba(0,0,0,.15);	
+}
+
+#hcenter_down{
+    text-align: center;
+    font-size:14px;
+    height: 50px;
+    position:relative;
+    top:-24px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);	
+    
+}
+
 .input
 {
-	border-radius: 15px;
+    border-radius: 15px;
     height: 30px;
 }
 #header_right
 {
-	float:right;
-	
-		}
+   float: right;
+    padding-right: 8px;
+    position: relative;
+    top: 53px;
+
+}
 #header_right img{
-	position:relative;
-	top:15px;
+    position:relative;
+    top:9px;
 }
 div.clear {
     clear:both;
 }
+
 #collegname{
 text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,

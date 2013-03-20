@@ -1,8 +1,9 @@
-<!------index page here ---->
+<!--index page here -->
+<!--comment by subash-->
 <html>
     <head>
 
-        <title></title>
+        <title>Leapfrog College of Information Technology</title>
         <link rel="stylesheet" type="text/css" href="css/style.css"></link>
         <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
         <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
@@ -16,15 +17,16 @@
         </div>
         <div id="header_center">
         	<h4>Leapfrog College of Information Technology</h4>
-            <h5>Tribhuvan University</h5>
+                <div id="hcenter_down">Tribhuvan University</div>
         </div>
         <div id="header_right">
-        	<input type="text" name="text" placeholder="Search Here"></input>
-            <img src="images/search-button-without-text-md.png" height="35px" width="35px"></img>
+        	<input id="search_input"type="text" name="text" placeholder="Search Here"></input>
+            <img src="images/search-button-without-text-md.png" height="25px" width="25px"></img>
         </div>
             
         </div>
-        <div class="clear"></div>
+        <p><div class="clear"></div>
+
         <div class="menu">
             <ul> 
 
@@ -36,8 +38,7 @@
                 <li><a href="#"><font color="#008500">Downloads</font></a></li>
                 <li><a href="#"><font color="#008500">Gallery</font></a></li>
                 <li><a href="#"><font color="#008500">Contact Us</font></a></li>
-                </tr>
-
+                
             </ul>
         </div>
         <div class="part1">
@@ -92,6 +93,7 @@
                 </div>
             </div>
         </div>
+            <!--footer section-->
         <div class="footer">
             <ul> 
 
@@ -103,8 +105,7 @@
                 <li><a href="#"><font color="#008500">Downloads</font></a></li>
                 <li><a href="#"><font color="#008500">Gallery</font></a></li>
                 <li><a href="#"><font color="#008500">Contact Us</font></a></li>
-                </tr>
-
+                
             </ul>
             
            <center> <img src="images/logo.png" height="30px"></img>
@@ -113,6 +114,5 @@
            </center>
         </div>
     </center>
-</body>
 </body>
 </html>
