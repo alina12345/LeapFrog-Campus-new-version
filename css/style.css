@@ -209,6 +209,7 @@ h3
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #008500;
     font-weight: bold;
+    text-align: center;
 }
 
 .part2 .leftpart
@@ -220,30 +221,57 @@ h3
     text-align: justify;
     margin-right: 90px;
 }
+
 #readmore
 {
     margin-left: 110px;
     background:#008500; color:#FFFFFF; font-size:14px; border:1px solid #0060a1;
 }
+.bodypart{
+    width: 1004px;
+    height:500px;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: justify;
+    
+}
 
-.part2 .rightpart
+
+.bodypart .bodyleft
 {
     width: 250px;
-    height:500px;
+    height:600px;
     float:left;
-    text-align: justify;
-    margin-right: 0px;
-    font-family: Arial;
+    margin-left: 35px;
     margin-right: 90px;
 }
-.part2 .left
+
+.bodypart .bodycenter
 {
     height: 600px;
-    margin-top: 28px;
+    width: 250px;
+    margin-right: 90px;
     float:left;
 
 
 }
+.bodypart .bodyright
+{
+    height: 600px;
+    width:250px;
+    
+    float:left;
+}
+
+.bodypart img{
+    height: 220px;
+    width: 240px;
+    padding:1px;
+   border:1px solid #021a40;
+   background-color:#68CB54;
+    
+}
+
 .part2 .left .right_round
 {
 
