@@ -1,10 +1,15 @@
+.main
+{
+    
+}
 .header
 {
-    background-image: url('../images/bek.png');
-    background-repeat: repeat-y;
+    background-image: url('../images/top_1.jpg');
+    background-repeat: repeat-x;
     width:1004px;
     height: 100px;
-    background-color: #1D766F;
+    border-bottom-right-radius:1em;
+    border-bottom-left-radius:1em;
     margin: 0px;
 
 }
@@ -97,29 +102,30 @@ div.clear {
 {
     margin-top: -22px;
     height:40px;
-    background-color: #FFFF00;
-    background-image: url('../images/ban.png');
+    background-image: url('../images/menu.jpg');
+    
     font-size: 30px;
-    color:#008500;
+    
     border-radius: 15px;
     width:1004px;
 }
 .menu ul
 {
-    color:#008500;  
+    color:#FFFFFF;  
 }
 
 .menu ul li
 {
     list-style-type:none;
     display:inline;
-    color:#008500;
+    color:#F6F6F6;
 
 }
 .menu ul li a
 {
 
     width:170px;
+    height:10px;
     display:block;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     float:left;
@@ -128,15 +134,13 @@ div.clear {
     font-size:16px;
     font-weight: bold;
     padding:12px 10px 20px 0px;
-    border-right:0px solid #FFFF00;
-
 }
 .menu ul li a:hover
 {
     height:8px;
-    color:#008500;
-    text-decoration:none;
-    background-color: #FFFF00;
+    color:#FFFFFF;
+    text-decoration:underline;
+    background-color: saddlebrown;
     margin-bottom: 0px;
 
 }
@@ -172,57 +176,35 @@ h2 {display:inline;}
     border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre; font-family:"Courier New", Georgia;
     font-size:12px; margin:6px 0;overflow:auto; 
 }
-
-
-.part1 .info{
-    float:left;
-    margin-top: 30px;
-    margin-left: 100px;
-
-}
-.part1 .info a{
-
-    display:block;
-
-
-    text-align:inherit;
-    text-decoration:none;
-    font-size:13px;
-    font-weight: bold;
-
-    border-right:0px solid #FFFF00;
-}
-.part1 .info a:hover
-{
-
-    color:#008500;
-    text-decoration:none;
-    background-color: #FFFF00;
-
-}
-.part2
-
 .content_part
-
 {
+    margin-top: -10px;
     width: 1004px;
     height:500px;
+    background-image: url('../images/rightnav.jpg');
+    border-radius:1em;
 }
 h3
 {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #008500;
+    color: #FFFFFF;
     font-weight: bold;
 }
 
 .content_part .leftpart
 {
-    width:250px;
+    margin-top: -240px;
+    margin-left: 15px;
+    width:330px;
     height:500px;
     float:left;
     font-family: Arial;
     text-align: justify;
     margin-right: 90px;
+    color:#FFFFFF;
+    
+    border-top: 2px;
+    border-radius:15px;
 }
 #readmore
 {
@@ -232,15 +214,62 @@ h3
 
 .content_part .middlepart
 {
-    width: 250px;
+    margin-top: -240px;
+    margin-left: -75px;
+    
+    width: 330px;
     height:500px;
     float:left;
     text-align: justify;
-    margin-right: 0px;
-    font-family: Arial;
     margin-right: 90px;
+    font-family: Arial;
+    margin-right: 0px;
+    color:#FFFFFF;
+    border-right: 3px solid #008500;
+    border-left: 3px solid #008500;
+    border-top: 2px;
+    border-radius:15px;
 }
-.content_part .rightpart
+.content_part #news_topic
+{
+    
+    margin-top: -240px;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 75px;
+    font-size: 16px;
+    margin-left: 16px;
+     
+    color:#FFFFFF;  
+    padding:0px;
+    font-weight: inherit;
+    float:left;
+    text-align: center;
+}
+.content_part #news_events
+{
+    margin-top: -463px;
+    margin-left: 715px;
+    margin-right: 15px;
+    font-weight: inherit;
+    float:right;
+    border-color: saddlebrown;
+    color:#FFFFFF;
+    text-align: justify;
+    font-family: Arial;
+}
+.content_part #news_events a
+{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.content_part #news_events a:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+
+.banner_part .rightpart
 {
     height: 600px;
     margin-top: 28px;
@@ -248,35 +277,50 @@ h3
 
 
 }
-
-.part2 img
-{
-    margin-left: -1490px;
-}
-
-h5
-{
-    margin-top: 100px
-}
-.part2 .left .right_round
-
-.content_part .rightpart .login
-
+.banner_part .rightpart .login
 {
 
-
+    margin-left: 40px;
 
 
 }
-.content_part .rightpart .about
+.banner_part .rightpart .about
 {
-
+    margin-left: 40px;
+     border-radius: 15px;
+}
+.banner_part .rightpart .about a
+{
+    
+    display:block;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    text-align:inherit;
+    text-decoration:none;
+    font-size:14px;
+    font-weight: bold;
+    
+}
+.banner_part .rightpart .about a:hover
+{
+    height:20px;
+    width: 95px;
+    color:#FFFFFF;
+    text-decoration:underline;
+    background-color: saddlebrown;
+    margin-bottom: 0px;
+}
+p
+{
+    margin-right: 15px;
+    margin-left: 25px;
 }
 .footer
 {
-    background-image: url('../images/bek.png');
+    background-image: url('../images/top_1.jpg');
     margin-top: 10px;
     width: 1004px;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
 
 }
 .footer ul
@@ -305,6 +349,104 @@ h5
     padding:12px 10px 20px 0px;
     border-right:0px solid #FFFF00;
 
+}
+.bodypart{
+    width: 1004px;
+    height:500px;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+
+.bodypart .bodyleft
+{
+    width: 250px;
+    height:600px;
+    float:left;
+    margin-left: 35px;
+    margin-right: 90px;
+}
+
+.bodypart .bodycenter
+{
+    height: 600px;
+    width: 250px;
+    margin-right: 90px;
+    float:left;
+
+
+}
+.bodypart .bodyright
+{
+    height: 600px;
+    width:250px;
+    
+    float:left;
+}
+
+.bodypart img{
+    height: 220px;
+    width: 240px;
+    padding:1px;
+   border:1px solid #021a40;
+   background-color:#68CB54;
+   margin-left:-500px;
+    
+}
+
+.about_page
+{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.about_page .p2
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #008500;
+    font-weight: bold;
+    font-size: 18pt;
+    padding-left: 350px;
+    padding-right: 140px;
+    text-align: justify;
+    margin-top: -30px;
+    
+}
+
+.about_page img
+{
+    margin-left: -820px;
+    margin-top: -150px;
+}
+
+h5
+{
+    font-family: serif;
+    font-size: 16pt;
+}
+.about_page .about_left
+{
+    margin-left: 90px;
+    margin-top: -50px;
+    margin-right: 820px;
+    text-align: justify;
+}
+
+.about_page .about_middle
+{
+    margin-left: 440px;
+    margin-top: -328px;
+    margin-right: 470px;
+    text-align: justify;
+}
+
+.about_page .about_right
+{
+    margin-top: -347px;
+    margin-left: 790px;
+    margin-right: 140px;
+    text-align: justify;
 }
 
 
