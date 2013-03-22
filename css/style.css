@@ -145,14 +145,14 @@ div.clear {
 
 }
 
-.banner_part
+.part1
 {
     width: 1004px;
 
     height:400px;
 }
 
-.banner_part .slider
+.part1 .slider
 {
     float:left;
 
@@ -176,7 +176,34 @@ h2 {display:inline;}
     border: dashed 1px #BCBCCB; padding:8px 12px; background-color: #F3F3F9; white-space:pre; font-family:"Courier New", Georgia;
     font-size:12px; margin:6px 0;overflow:auto; 
 }
-.content_part
+
+.part1 .info{
+    float:left;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+.part1 .info a{
+
+    display:block;
+
+
+    text-align:inherit;
+    text-decoration:none;
+    font-size:13px;
+    font-weight: bold;
+
+    border-right:0px solid #FFFF00;
+}
+.part1 .info a:hover
+{
+
+    color:#008500;
+    text-decoration:none;
+    background-color: #FFFF00;
+
+}
+.part2
 {
     margin-top: -10px;
     width: 1004px;
@@ -189,9 +216,10 @@ h3
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     font-weight: bold;
+    text-align: center;
 }
 
-.content_part .leftpart
+.part2 .leftpart
 {
     margin-top: -240px;
     margin-left: 15px;
@@ -206,21 +234,28 @@ h3
     border-top: 2px;
     border-radius:15px;
 }
+
 #readmore
 {
     margin-left: 110px;
     background:#008500; color:#FFFFFF; font-size:14px; border:1px solid #0060a1;
 }
-
-.content_part .middlepart
-{
-    margin-top: -240px;
-    margin-left: -75px;
-    
-    width: 330px;
+.bodypart{
+    width: 1004px;
     height:500px;
-    float:left;
+    font-family: Arial;
+    font-size: 16px;
     text-align: justify;
+    
+}
+
+
+.bodypart .bodyleft
+{
+    width: 250px;
+    height:600px;
+    float:left;
+    margin-left: 35px;
     margin-right: 90px;
     font-family: Arial;
     margin-right: 0px;
@@ -230,61 +265,41 @@ h3
     border-top: 2px;
     border-radius:15px;
 }
-.content_part #news_topic
-{
-    
-    margin-top: -240px;
-    text-align: center;
-    font-family: Arial;
-    margin-left: 75px;
-    font-size: 16px;
-    margin-left: 16px;
-     
-    color:#FFFFFF;  
-    padding:0px;
-    font-weight: inherit;
-    float:left;
-    text-align: center;
-}
-.content_part #news_events
-{
-    margin-top: -463px;
-    margin-left: 715px;
-    margin-right: 15px;
-    font-weight: inherit;
-    float:right;
-    border-color: saddlebrown;
-    color:#FFFFFF;
-    text-align: justify;
-    font-family: Arial;
-}
-.content_part #news_events a
-{
-    color:#FFFFFF;
-    text-decoration: none;
-}
-.content_part #news_events a:hover
-{
-    color:black;
-    text-decoration: underline;
-}
 
-.banner_part .rightpart
+.bodypart .bodycenter
 {
     height: 600px;
-    margin-top: 28px;
+    width: 250px;
+    margin-right: 90px;
     float:left;
 
 
 }
-.banner_part .rightpart .login
+.bodypart .bodyright
+{
+    height: 600px;
+    width:250px;
+    
+    float:left;
+}
+
+.bodypart img{
+    height: 220px;
+    width: 240px;
+    padding:1px;
+   border:1px solid #021a40;
+   background-color:#68CB54;
+    
+}
+
+.part2 .left .right_round
 {
 
     margin-left: 40px;
 
 
 }
-.banner_part .rightpart .about
+.part2 .left .leftdown
 {
     margin-left: 40px;
      border-radius: 15px;
@@ -350,103 +365,3 @@ p
     border-right:0px solid #FFFF00;
 
 }
-.bodypart{
-    width: 1004px;
-    height:500px;
-    font-family: Arial;
-    font-size: 16px;
-    text-align: justify;
-    
-}
-
-
-.bodypart .bodyleft
-{
-    width: 250px;
-    height:600px;
-    float:left;
-    margin-left: 35px;
-    margin-right: 90px;
-}
-
-.bodypart .bodycenter
-{
-    height: 600px;
-    width: 250px;
-    margin-right: 90px;
-    float:left;
-
-
-}
-.bodypart .bodyright
-{
-    height: 600px;
-    width:250px;
-    
-    float:left;
-}
-
-.bodypart img{
-    height: 220px;
-    width: 240px;
-    padding:1px;
-   border:1px solid #021a40;
-   background-color:#68CB54;
-   margin-left:-500px;
-    
-}
-
-.about_page
-{
-    margin-top: 80px;
-    margin-left: 50px;
-}
-.about_page .p2
-{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #008500;
-    font-weight: bold;
-    font-size: 18pt;
-    padding-left: 350px;
-    padding-right: 140px;
-    text-align: justify;
-    margin-top: -30px;
-    
-}
-
-.about_page img
-{
-    margin-left: -820px;
-    margin-top: -150px;
-}
-
-h5
-{
-    font-family: serif;
-    font-size: 16pt;
-}
-.about_page .about_left
-{
-    margin-left: 90px;
-    margin-top: -50px;
-    margin-right: 820px;
-    text-align: justify;
-}
-
-.about_page .about_middle
-{
-    margin-left: 440px;
-    margin-top: -328px;
-    margin-right: 470px;
-    text-align: justify;
-}
-
-.about_page .about_right
-{
-    margin-top: -347px;
-    margin-left: 790px;
-    margin-right: 140px;
-    text-align: justify;
-}
-
-
